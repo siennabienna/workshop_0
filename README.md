@@ -1,5 +1,5 @@
 # workshop_0
-
+Website: https://siennabienna.github.io/workshop_0/ 
 #### In the first workshop, we were shown the basics of p5.js. The difference between setup and draw, and that draw always runs in a loop. We also learned simple shapes, such as rectangles (rect(x, y, w, h);), and circles (x, y, diameter);). I followed along with the workshop and had a play around on p5. 
 
 ##### Here, I am trying out the RGB of the background, and also have made a rectangle.
