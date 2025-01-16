@@ -9,9 +9,9 @@
 ![Screenshot 2025-01-09 220621](https://github.com/user-attachments/assets/18358a7c-6b7b-4811-84aa-e0fe4d18ed93)
 
 #### I was really interested in the mouseX and mouseY functions, and trying to make something interactive. 
-##### I made this, https://editor.p5js.org/siennabearbum/sketches/veVCeuil_  . One of the problems I encountered with this is that the circle wasn't touching the mouse when it followed. After going over the properties of circle on the p5 Reference page, I recalled that the third variable of circle is the diameter, and thus was only following the mouse by half of the mouses disance to the centre. 
+##### My plan was to draw a circle that is as big as the mouse is far from the centre. I started by putting the circle in the centre, and then I needed to find the distance between the center and the mouse. For this I used mouseX and mouseY, and put these as the x and y varibles in the dist() function. This would calculate how far out the mouse was. I then put dist, or d, as a varible in the size of the circle. This worked well, and the circle was following the mouse. However, the circle would only grow half as big as the mouse was far. I then realised that I needed radius for the dist to follow the mouse correctly, and the circle shape uses diameter.
 ![image](https://github.com/user-attachments/assets/1512afe2-c783-4e99-844c-13c97db55ace)
-##### To fix this, I needed it to be equal to the radius, so I multiplied the variable in the code.
+##### To fix this, I multiplied the variable in the code.
 ![image](https://github.com/user-attachments/assets/06b4ebb5-bbbb-4762-b1bf-99b37535eb23)
 
 ### I am very proud of my expanding circle!
