@@ -97,7 +97,7 @@ triangle(mouseX, mouseY, 20, 20, 20, 20);
 But this did not work. After messing around with it a bit, I realised it was because the background was in the draw function from when I created the sketch, and this meant that everytime I clicked, the background would just reset and cover the line I made, as draw runs in a loop.
 
 After taking this out, I ended up with this:
-![image](https://github.com/user-attachments/assets/e38fa943-64ca-4762-ab38-9f4de9ea0433)
+![image](https://github.com/user-attachments/assets/68e580d1-484f-4ce8-ad1f-e7e525f1f014)
 
 Obviously these were not the triangles I was after. I had another look at the code and I noticed I had given the triangles fixed points on the canvas. To fix this, I needed to figure out the appropiate `mouseX` and `mouseY` for each coordinate, so that it moves to where the mouse it when it's clicked.
 
