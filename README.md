@@ -44,7 +44,7 @@ function draw() {
 ```
 ![image](https://github.com/user-attachments/assets/3ab5776b-9396-498e-af77-b3f78ad388bf)
 
-# Testing `mouseX` And `mouseY`
+# Testing `mouseX` And `mouseY`, As Well As `dist()`
 
 I was really interested in the mouseX and mouseY functions, and trying to make something interactive. 
 
@@ -69,5 +69,44 @@ fill(255, 105, 180);
 circle(200, 200, d*2);
 
 ```
+# Experimenting with 2D primitive shapes
 
+After my success with the circles, I wanted to try a slightly harder 2D primitive shape, so I had a go at using trianges. I had an idea to continue using `mouseX` and `mouseY`, and make it so that everytime a mouse is clicked, it would draw a triangle at that position. In order to do this, I had to try using the `mouseClicked` function.
 
+I had a look at the `mouseClicked` page on the p5 reference.
+https://p5js.org/reference/p5/mouseClicked/ 
+This taught me that I needed to use it as a new function outside of `draw()`, and then I could add my triangle into this.
+
+My first attempt was as follows:
+
+```js
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+}
+
+funtion mouseClicked(){
+triangle(mouseX, mouseY, 20, 20, 20, 20);
+}
+
+```
+
+But this did not work. After messing around with it a bit, I realised it was because the background was in the draw function from when I created the sketch, and this meant that everytime I clicked, the background would just reset and cover the line I made, as draw runs in a loop.
+
+After taking this out, I ended up with this:
+![image](https://github.com/user-attachments/assets/e38fa943-64ca-4762-ab38-9f4de9ea0433)
+
+Obviously these were not the triangles I was after. I had another look at the code and I noticed I had given the triangles fixed points on the canvas. To fix this, I needed to figure out the appropiate `mouseX` and `mouseY` for each coordinate, so that it moves to where the mouse it when it's clicked.
+
+In order to figure this out, I put `mouseX` and `mouseY` as every coordinate, and then offset each of these by a certain number of pixels so that it would form a triangle. I left the first parameter as it was, so that it would maintain where the mouse was clicked. I changed the second parameter so that the X was increased by 40 pixels, and the Y was decreased by 40 pixels. This would form the second line of the triange. I changed the third parameter so that the X was increased by 40 again, and then the Y would also increase by 40, forming the final side of the triangle.
+
+```js
+funtion mouseClicked(){
+triangle(mouseX, mouseY, mouseX + 40, mouseY - 40, mouseX + 40, mouseY + 40);
+}
+```
+This worked really well!
+Link to my p5 'tappy triangle': https://editor.p5js.org/siennabearbum/sketches/iKG6gj7o3 
