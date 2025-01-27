@@ -111,3 +111,9 @@ triangle(mouseX, mouseY, mouseX + 40, mouseY - 40, mouseX + 40, mouseY + 40);
 ```
 This worked really well!
 Link to my p5 'tappy triangle': https://editor.p5js.org/siennabearbum/sketches/iKG6gj7o3 
+
+# Ideas for Further Development
+- Developing 'tappy triangles' more, perhaps using colour and other shapes
+- trying `mouseX` and `mouseY` in a way that has more than one use (not just dictating where a shape should go but also perhaps something interactive, such as a shape bouncing off a mouse or bending shapes)
+- learning to encorporate text into a drawing to make it a bit more fun
+- trying some more complex shapes, such as creating my own and not only using primitive shapes (eg. learn to draw a flower or sun using primitive shapes, and then using this in some way)
