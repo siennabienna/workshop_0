@@ -1,7 +1,7 @@
 # workshop_0
 Website (LONELY CIRCLE WANTS TO BE FRIENDS WITH CURSOR): https://siennabienna.github.io/workshop_0/ 
 
-## Things I Looked At In This Workshop
+## Things I Looked at in this Workshop
 - Learning setup and draw funcions
 - Trying out RGB
 - Testing `mouseX` and `mouseY`
@@ -44,7 +44,7 @@ function draw() {
 ```
 ![image](https://github.com/user-attachments/assets/3ab5776b-9396-498e-af77-b3f78ad388bf)
 
-# Testing `mouseX` And `mouseY`, As Well As `dist()`
+# Testing `mouseX` and `mouseY`, as well as `dist()`
 
 I was really interested in the mouseX and mouseY functions, and trying to make something interactive. 
 
@@ -69,7 +69,7 @@ fill(255, 105, 180);
 circle(200, 200, d*2);
 
 ```
-# Experimenting with 2D primitive shapes
+# Experimenting with 2D Primitive Shapes
 
 After my success with the circles, I wanted to try a slightly harder 2D primitive shape, so I had a go at using trianges. I had an idea to continue using `mouseX` and `mouseY`, and make it so that everytime a mouse is clicked, it would draw a triangle at that position. In order to do this, I had to try using the `mouseClicked` function.
 
