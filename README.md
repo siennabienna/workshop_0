@@ -2,8 +2,11 @@
 Website (LONELY CIRCLE WANTS TO BE FRIENDS WITH CURSOR): https://siennabienna.github.io/workshop_0/ 
 
 Going into this, I want to give a thank you to my friend Miro who is also in the course, who helped me figure out little problems in some of my code. 
+
 Link to his GitHib: https://github.com/MiroW-L 
+
 Also a thank you to my friend Ghen, who had helped me with some intracicies of the more difficult coding in all of my workshop tasks going forward, and helped me learn to code a bit easier.
+
 Link to his GitHub: https://github.com/ghen-git
 
 ## Things I Looked at in this Workshop
