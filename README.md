@@ -77,7 +77,7 @@ fill(255, 105, 180);
 circle(200, 200, d*2);
 
 ```
-# Experimenting with 2D Primitive Shapes
+# Experimenting with 2D Primitive Shapes and Problem Solving Triangles
 
 After my success with the circles, I wanted to try a slightly harder 2D primitive shape, so I had a go at using trianges. I had an idea to continue using `mouseX` and `mouseY`, and make it so that everytime a mouse is clicked, it would draw a triangle at that position. In order to do this, I had to try using the `mouseClicked` function.
 
