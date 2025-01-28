@@ -5,7 +5,7 @@ Going into this, I want to give a thank you to my friend Miro who is also in the
 
 Link to his GitHib: https://github.com/MiroW-L 
 
-Also a thank you to my friend Ghen, who had helped me with some intracicies of the more difficult coding in all of my workshop tasks going forward, and helped me learn to code a bit easier.
+Also a thank you to my friend Ghen, who had helped me with some intricacies of the more difficult coding in all of my workshop tasks going forward, and helped me learn to code a bit easier.
 
 Link to his GitHub: https://github.com/ghen-git
 
