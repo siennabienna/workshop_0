@@ -118,7 +118,7 @@ triangle(mouseX, mouseY, mouseX + 40, mouseY - 40, mouseX + 40, mouseY + 40);
 }
 ```
 This worked really well!
-Link to my p5 'tappy triangle': https://editor.p5js.org/siennabearbum/sketches/iKG6gj7o3 
+Link to my p5 'tappy triangle': https://editor.p5js.org/siennabearbum/full/iKG6gj7o3 
 
 # Ideas for Further Development
 - Developing 'tappy triangles' more, perhaps using colour and other shapes
